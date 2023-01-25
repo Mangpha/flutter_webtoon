@@ -34,7 +34,10 @@ class DetailScreen extends StatelessWidget {
           Row(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              WebtoonImage(thumb: thumb),
+              WebtoonImage(
+                thumb: thumb,
+                id: id,
+              ),
             ],
           ),
         ],
